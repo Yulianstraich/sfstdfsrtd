@@ -1,0 +1,630 @@
+.btnIn {
+	float: left;
+	background: url(../images/botones/botonIz.gif) no-repeat ;
+	padding: 0 0 0 2px;
+	margin: 5px 0;
+	
+}
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml"><head><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/content/location/location.js" id="nimlmejbmnecnaghgmbahmbaddhjbecg"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/extend-native-history-api.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/requests.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/content/location/location.js" id="nimlmejbmnecnaghgmbahmbaddhjbecg"></script><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/../executers/vi-tr.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/extend-native-history-api.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/requests.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/content/location/location.js" id="nimlmejbmnecnaghgmbahmbaddhjbecg"></script><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/../executers/vi-tr.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/extend-native-history-api.js"></script><script src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/libs/requests.js"></script><!-- Mirrored from ebankpersonas.bancopatagonia.com.ar/eBanking/usuarios/login.htm by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Aug 2024 13:06:31 GMT --><!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8"><!-- /Added by HTTrack -->
+
+
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Pragma" content="no-cache">
+
+
+		<link href="../styles/loginNuevo.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" href="../images/iconos/favicon.ico" type="image/x-icon">
+		<link href="../styles/botonesLogin.css" type="text/css" rel="stylesheet">
+		<link href="../styles/global.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="../js/chkPass.js"></script><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://nimlmejbmnecnaghgmbahmbaddhjbecg/../executers/vi-tr.js"></script>
+		<script type="text/javascript" src="../js/global.js"></script>
+		<script type="text/javascript" src="../js/login.js"></script>
+
+		<script src="../js/fingerprint/vubrowserfp.min.js"></script>
+	<script src="../js/fingerprint/VUFp.js"></script>
+		<script type="text/javascript" src="../dwr/engine.js"></script>
+		<script type="text/javascript" src="../dwr/interface/LoggerAJAX.js"></script>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="../styles/loginNuevo.css" type="text/css">
+<link rel="stylesheet" href="../styles/vkey.css" type="text/css">
+
+<script type="text/javascript">
+		if (self === top) {
+				var antiClickjack = document.getElementById("antiClickjack");
+				antiClickjack.parentNode.removeChild(antiClickjack);
+		} else {
+				top.location = self.location;
+		}
+</script>
+
+
+<script src="login.html" type="text/javascript"></script>
+<script type="text/javascript">
+const url_passive_fingerprint = 'https://fingerprint.api.vusecurity.com/';
+const timeout_in_milliseconds = '10000';
+const habilitoFg = true;
+
+		function logError(error) {
+
+				LoggerAJAX.logError(error , {callback:function(data){
+						}
+				});
+
+		}
+
+function pruebaFrames(cantFrames,mensaje){
+	var iframes = document.getElementsByTagName("iframe")
+	var total_iframes=0;
+	var i;
+	for (i=0; i<iframes.length; i++){
+		if (iframes[i].src.length != 0)
+			total_iframes++;
+	}
+	if (total_iframes > cantFrames)
+	{
+		alert(mensaje);
+		return 1;
+	}
+	return 0;
+}
+
+function pruebaTextbox(cantTextBox,mensaje){
+	var textbox;
+	textbox = document.getElementsByTagName("input");
+	var j=0;
+	var total_textbox=0;
+	while (j < textbox.length)
+	{
+		if(textbox[j].type=='text')
+		{
+			total_textbox++;
+		}
+		j++;
+	}
+	if (total_textbox > cantTextBox){
+		alert(mensaje);
+		return 1;
+	}
+	return 0;
+}
+
+function verificarAgregadosDinamicosLogin(cantFrames,cantTextBox){
+	var mensajeError = 'Su maquina se encuentra afectada por un Virus que le impide seguir operando con Patagonia e-bank. Por favor comuníquese urgente al 0810-888-8500';
+	var error = pruebaFrames(cantFrames, mensajeError);
+	if (error == 0)
+		error = pruebaTextbox(cantTextBox,mensajeError);
+	return error;
+}
+
+function roll_over(img_name, img_src)
+		 {
+		 document[img_name].src = img_src;
+		 }
+
+	var focoBoton = false;
+	var focoSubmit = true;
+	function shadow(){
+		document.getElementById("imgSeguridad").style.display = "none";
+		var element = document.getElementById("footerLoginGral");
+		element.style.height = "46px";
+	}
+
+
+	function ingresando(){
+			clear_fields();
+			if(verificarCamposVaciosLogin())
+			{
+
+				var formLogin = document.getElementById("formLogin");
+				try{
+					if (habilitoFg){
+						vuFingerprint(url_passive_fingerprint, timeout_in_milliseconds);
+					}else{
+						formLogin.submit();
+						window.status = "Abriendo pagina...";
+					}
+				} catch (e){
+					console.log(e);
+					formLogin.submit();
+					window.status = "Abriendo pagina...";
+				}
+
+			}
+
+	}
+
+function enterKeyLogin1(evt) {
+	var evt = (evt) ? evt : event;
+	var charCode = (evt.which) ? evt.which : evt.keyCode;
+	if (charCode == 13) {
+		if (!focoBoton)
+		{
+			if (focoSubmit)
+				verificarCamposVaciosLogin1();
+		}
+	}
+}
+function disableEnterKeyLogin1(evt) {
+var evt = (evt) ? evt : event;
+	var charCode = (evt.which) ? evt.which : evt.keyCode;
+	if (charCode == 13) {
+			return false;
+		}
+}
+		else
+		{
+			document.body.onkeypress=enterKeyLogin1;
+			document.getElementById("botonAcceso").disabled=false;
+			document.getElementById("botonAcceso").onclick= function(){clear_fields(); verificarCamposVaciosLogin1();};
+		}
+	}
+}
+
+	function clear_fields() {
+
+
+		 for( var n = 0; n < document.forms.length; n++ ) {
+
+		 for(var i = 0; i < document.forms[n].elements.length; i++) {
+
+		 var er=document.getElementById(document.forms[n].elements[i].name+'.errors');
+		 var er1=document.getElementById('errorDivRecuadro');
+		 var er2=document.getElementById('tablaError');
+		 if(er!=null){
+			er.parentNode.removeChild(er);
+		 }
+			if(er1!=null){er1.parentNode.removeChild(er1);}
+			if(er2!=null){er2.parentNode.removeChild(er2);}
+		 }
+	}
+}
+	var newwindow = null;
+	var newwindow2 = null;
+	function poptastic(url)
+	{
+		if (newwindow2 != null){
+			newwindow2.close();
+			newwindow2 = null;
+		}
+		newwindow=window.open(url,'name','width=600,height=490,resizable=yes,scrollbars=yes,status=yes');
+		if (window.focus) {newwindow.focus()}
+	}
+	function poptastic2(url)
+	{
+		if (newwindow != null){
+			newwindow.close();
+			newwindow = null;
+		}
+		newwindow2=window.open(url,'name','width=750,height=490,resizable=yes,scrollbars=yes,status=yes');
+		if (window.focus) {newwindow2.focus()}
+	}
+	function crearUsuario(){
+		window.location='adhesion.html';
+	}
+
+</script>
+<script type="text/javascript" src="../js/teclado/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../js/teclado/jquery-ui-personalized-1.5.2.min.js"></script>
+<script type="text/javascript" src="../js/teclado/jquery-fieldselection.js"></script>
+<script type="text/javascript" src="../js/teclado/vkeyboard.js"></script>
+<script type="text/javascript" src="../js/JavaScript-Seal-v1.js"></script>
+
+<script type="text/javascript" src="../js/login.js"></script>
+
+<style>
+#loginDocumento select {
+	width: 70px !important;
+	margin: 0px;
+	line-height: 15px;
+	height: 18px;
+/* 	border: 1px solid #7F9DB9; */
+}
+
+#tipoDoc:hover {
+	background:#ffffff;
+	outline: 1px solid #000000;
+	border-radius:3px;
+}
+
+#usernameDocumento:hover {
+	background:#ffffff;
+	outline: 1px solid #000000;
+	border-radius:3px;
+}
+
+#username:hover {
+	background:#ffffff;
+	outline: 1px solid #000000;
+	border-radius:3px;
+}
+
+#password:hover {
+	background:#ffffff;
+	outline: 1px solid #000000;
+	border-radius:3px;
+	border
+}
+
+#FormLink a:hover {
+	background:transparent !important;  
+	outline: 1px solid #000000 !important; 
+	border-radius:3px !important; 
+}
+
+#showkeyboard:hover {
+	background:transparent !important;  
+	outline: 1px solid #000000 !important; 
+	border-radius:3px !important; 
+}
+
+ #imagenBoton:hover { 
+		background:transparent;  
+	outline: 1px solid #000000; 
+	border-radius:3px; 
+ } 
+
+#botonCrearUsuarioClave:hover {
+	border: 2px solid #000000; 
+	border-radius:10px; 
+}
+
+#radiosTipoLogin {
+	padding-left: 10%;
+	line-height: 30px;
+}
+
+#radioLogin {
+	float: left;
+	padding-left: 30px;
+	line-height: 30px;
+}
+
+#radioLogin input {
+	background-color: #B3C8D9;
+}
+
+#footerLogin {
+	clear: both;
+	width: 100%;
+	height: 170px;
+	margin-left: 21px;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: arial;
+	font-size: 11px;
+	color: #0C2E72;
+}
+
+#seguridad {
+	width: 221px;
+	height: 165px;
+	float: left;
+	background: transparent url(../images/login/imgSeguridad.gif)
+		no-repeat right top;
+	margin: 0px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+#seguridad span b {
+	font-weight: bold;
+}
+
+#ayuda {
+	width: 219px;
+	height: 165px;
+	float: left;
+	background: transparent url(../images/login/imgAyuda.gif) no-repeat
+		left top;
+	margin: 0px;
+	padding: 0px;
+}
+
+#ayuda span {
+	font-weight: bold;
+	margin-bottom: 50px;
+	margin-left: 0px;
+}
+
+#footer span {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.p-bottom-10{
+	padding-bottom: 10% !important;
+}
+
+.p-top-2{
+	padding-top: 2% !important;
+}
+.create-btn{
+	border: #0C2E72 1px solid;
+	padding: 6px;
+	padding-left: 8%;
+	padding-right: 8%;
+	background: #0C2E72;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px;
+}
+.create-btn:visited, .create-btn:hover {
+	text-decoration: none;
+}
+#footer p {
+	margin: 2px;
+	padding: 3px;
+}
+.text-left {
+	text-align: end;
+	width: 93%;
+}
+
+.btns1 { border: none; background-color:#04AA6D; padding: 14px 28px; font-size: 16px; cursor: pointer; display: inline-block;}btn:hover {background: #eee:}.sucess:hover {background-color: #04AA6Dcolor: white}.success {color: white;
+
+}
+
+.btnInAdhesion {
+	float: left;
+	padding: 0 0 0 2px;
+	margin: 5px 0;
+	border:none;
+}
+.btn:hover,.btnIn:hover{
+
+	/* for IE8*/
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	/* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+
+}
+
+.btnInAdhesionHover:hover{
+	/* for IE8*/
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	/* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+font-size:12px !important;
+}
+
+.btnAdhesion:hover{
+
+	/* for IE8*/
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	/* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+font-size:12px !important;
+}
+
+.btn {
+	float: left;
+	background: url(../images/botones/botonIz.gif) no-repeat;
+	padding: 0 0 0 3px;
+	margin: 5px 0;
+}
+
+.btnAdhesion {
+	float: left;
+	padding: 0 0 0 3px;
+	margin: 5px 0;
+	border:none;
+}
+
+.btnLogin {
+	float: left;
+	padding: 0 0 0 3px;
+	margin: 5px 0;
+}
+
+.btnIn input{
+	float: left;
+	height: 21px;
+	background: url(../images/botones/botonCentro.gif) repeat-x left top;
+	line-height: 21px;
+	padding:0 4px;
+	padding-bottom:2px;
+	color: #0C2E72;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.btnInAdhesion input{
+	float: left;
+	height: 21px;
+	line-height: 21px;
+	padding-left:4px;
+	color: #000000;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:normal;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	margin: 0;
+	cursor: pointer;
+	background-color:#f1ecec;
+	width:80px;
+}
+
+.btnDisabled input{
+	background-color: #cccccc; !important;
+  	color: #adadad; !important;
+  	pointer-events:none; !important;
+}
+
+.btnInAdhesion input:hover{
+	font-size:12px !important;
+}
+/* /* .noHover{ */ */
+/* /*     pointer-events: none; */ */
+/* /* } */ */
+/* .btnAceptarIn input:hover{ */
+/* 	font-size:12px !important; */
+/* } */
+
+.btnIn button {
+	float: left;
+	height: 21px;
+	background: url(../images/botones/botonCentro.gif) repeat-x left top;
+	line-height: 21px;
+	padding:0 4px;
+	padding-bottom:2px;
+	color: #0C2E72;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.btnInAdhesion button {
+	float: left;
+	height: 21px;
+	line-height: 21px;
+	padding:0 4px;
+	padding-bottom:2px;
+	color: #000000;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:normal;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.btn a:visited{
+	font-weight: normal;
+}
+input.fakeButton{
+		background: url(../images/botones/botonIngresar.gif) no-repeat;
+		width: 88px;
+		height: 25px;
+}
+input.fakeButton2{
+		background: url(../images/botones/botonIngresarOff.gif) no-repeat;
+		width: 88px;
+		height: 25px;
+}
+/*input.fakeButton:hover{
+	background: none !important;
+}*/
+/*
+
+.btn a:hover{
+	cursor:default;
+	text-decoration:none !important;
+}
+
+*/
+
+.btn a{
+	float: left;
+	height: 21px;
+	background: url(../images/botones/botonCentro.gif) repeat-x left top;
+	line-height: 21px;
+	padding: 0 10px;
+	color: #0C2E72;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:bold !important;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	text-decoration:none !important;
+	cursor: pointer;
+}
+
+.btnAdhesion a{
+	float: left;
+	height: 21px;
+	line-height: 21px;
+	padding-right:4px;
+	color: #000000;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:normal !important;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	text-decoration:none !important;
+	cursor: pointer;
+	background-color:#f1ecec;
+	width: 76px;
+}
+.btnIn span  {
+	background: url(../images/botones/botonDer.gif) no-repeat;
+	float: left;
+	width: 10px !important;
+	height: 27px;
+}
+.btn span  {
+	background: url(../images/botones/botonDer.gif) no-repeat;
+	float: left;
+	width: 10px !important;
+	height: 27px;
+}
+.clear {
+	clear: both;
+}
+
+.btnnn a{
+	float: left;
+	height: 21px;
+	background: url(../images/botones/botonCentro.gif) repeat-x left top;
+	line-height: 21px;
+	padding: 0 10px;
+	color: #0C2E72;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:bold !important;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	text-decoration:none !important;
+	cursor: pointer;
+}
+/* 	float: left;
+	height: 21px;
+	background: url(../images/botones/botonCentro.gif) repeat-x left top;
+	line-height: 21px;
+	padding:0 4px;
+	padding-bottom:2px;
+	color: #0C2E72;
+	font-size: 12px;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration: none;
+	text-align:center;
+	border: 0;
+	margin: 0;
+	cursor: pointer; */
+	
+}
+
